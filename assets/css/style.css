@@ -1,0 +1,11 @@
+.accordian-panel{
+    cursor: pointer;
+}
+
+.accordian-panel .card-body{
+    display: none;
+}
+
+.accordian-panel .card-header.active + .card-body{
+    display: block;
+}
